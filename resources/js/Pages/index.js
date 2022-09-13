@@ -17,28 +17,23 @@ const meta = {
 const Page = () => {
   return (
     <>
-      <H1>JavaScript apps the monolith way</H1>
-      <P>Inertia is a new approach to building classic server-driven web apps. We call it the modern monolith.</P>
+      <H1>Aplicaciones monolíticas con JavaScript</H1>
+      <P>Inertia es un nuevo enfoque para la construcción de aplicaciones web clásicas basadas en servidores. Las llamamos aplicaciones monolíticas.</P>
       <P>
-        Inertia allows you to create fully client-side rendered, single-page apps, without much of the complexity that
-        comes with modern SPAs. It does this by leveraging existing server-side frameworks.
+        Inertia permite crear aplicaciones de una sola página totalmente renderizadas del lado del cliente, sin mucha de la complejidad que que conllevan las SPA modernas. Para ello, aprovecha los frameworks existentes del lado del servidor.
       </P>
       <P>
-        Inertia has no client-side routing, nor does it require an API. Simply build controllers and page views like
-        you've always done!
+        Inertia no tiene enrutamiento del lado del cliente, ni requiere una API. Simplemente, se construyen controladores y vistas de página como como siempre se ha hecho.
       </P>
       <P>
-        See the <A href="/who-is-it-for">who is it for</A> and <A href="/how-it-works">how it works</A> pages to learn
-        more.
+        Consulte las páginas <A href="/who-is-it-for">para-quien-es</A> y <A href="/how-it-works">cómo funciona</A> para obtener más información.
       </P>
-      <H2>Not a framework</H2>
+      <H2>No es un framework</H2>
       <P>
-        Inertia isn't a framework, nor is it a replacement to your existing server-side or client-side frameworks.
-        Rather, it's designed to work with them. Think of Inertia as glue that connects the two. Inertia does this via
-        adapters. We currently have three official client-side adapters (React, Vue, and Svelte) and two server-side
-        adapters (Laravel and Rails).
+        Inertia no es un entorno de trabajo, ni es un reemplazo para sus entornos de trabajo existentes del lado del servidor o del lado del cliente.
+        Más bien, está diseñado para trabajar con ellos. Piense en Inertia como el pegamento que conecta ambos. Inertia hace esto a través de adaptadores. Actualmente tenemos tres adaptadores oficiales del lado del cliente (React, Vue y Svelte) y dos adaptadores del lado del servidor (Laravel y Rails).
       </P>
-      <H2>Join the newsletter</H2>
+      <H2>Únete al boletín de noticias</H2>
       <div className="mt-8 p-8 rounded-lg text-white" style={{ background: '#303f6d' }}>
         <div className="sm:flex sm:items-center">
           <a
@@ -49,8 +44,7 @@ const Page = () => {
           </a>
           <div>
             <div className="mt-4 sm:mt-0 md:text-lg leading-snug">
-              If you're interested in following along with the development of Inertia.js, I share updates about it with
-              my newsletter.
+              Si estás interesado en seguir el desarrollo de Inertia.js, comparto las actualizaciones con mi boletín de noticias.
             </div>
             <div className="mt-2 text-sm text-pink-300">
               &mdash;
